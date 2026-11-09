@@ -20,6 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://github.com/n4thn1/qr-code-component](https://github.com/n4thn1/qr-code-component)
+- Live Site URL: [https://qr-code-component-one-flame.vercel.app/](https://qr-code-component-one-flame.vercel.app/)
 
 ## My process
 
