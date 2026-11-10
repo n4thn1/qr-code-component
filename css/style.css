@@ -14,6 +14,13 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -22,18 +29,26 @@ body {
   font-family: "Outfit";
   font-weight: 400;
   font-size: 1.5rem;
+  background-color: var(--Slate-300);
 }
 
 .container {
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
   background-color: var(--Slate-300);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: max(2.8rem, env(safe-area-inset-top))
+    max(2.8rem, env(safe-area-inset-right))
+    max(2.8rem, env(safe-area-inset-bottom))
+    max(2.8rem, env(safe-area-inset-left));
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .card {
+  width: 100%;
   max-width: 45rem;
+  margin: auto;
   padding: 2.4rem;
   background-color: var(--White);
   border-radius: 24px;
